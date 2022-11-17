@@ -1,24 +1,20 @@
-# MERN-Stack-Authentication-Authorization-JWT
-Learn how to use the MERN Stack with Authentication/Authorization JWT
-
-This is source code is for the video tutorial series that can be found here.
-
-https://www.youtube.com/playlist?list=PLvTjg4siRgU0HS3cANo7KZ52Wkud083TL
-
-Created by Pedro Mercado for NoobCoder.com
-
-Find more free tutorials by visiting NoobCoder.com or by visiting youtube.com/noobcoder
-
-1) In order to run this, within the root directory make sure to install dependecies by opening the terminal and typing the following
-
-npm install
-
-2) Next we need to install the dependicies within the client directory. You can do so by typing the following
-
-cd client
-
-npm install
-
-3) Now all thats left to do is run the start script within the root directory and within the client directory. Use two terminals and type the following command 
-
-npm start
+# SSD Assignment
+ABC Company is looking to create a custom web/mobile app to allow their staff to save messages or
+to upload files to a central server. The high-level functional requirements are given below.
+• The proposed system is a client server system to be run over an unsecure network
+• The client app will act as a simple interface which allows users to log in and provide
+messages or files
+• The server app will act as a database/data repository which allows the messages or files to
+be stored
+• The system should allow an administrator to create accounts for staff members – this can be
+hardcoded into system
+• The staff can login to system using the username and password allocated to them
+• The staff can be of two main roles
+o Workers – can only save messages
+o Managers – can save messages and upload files
+• The system should be able to send the messages and files over an unsecure network (from
+client to server) with the below security requirements
+o Confidentiality
+o Integrity
+o Message authentication
+o The client should be able to identify the server before any files are sent
